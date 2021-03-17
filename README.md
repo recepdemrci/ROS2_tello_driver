@@ -5,10 +5,11 @@
 This is just a library for communication. Some nodes in tello_driver package use this library.
 
 ### tf_object_detection: 
-ROS2 package for Object Detection using tensorflow. (https://www.codeproject.com/Articles/1268309/Adding-Object-Detection-with-TensorFlow-to-a-Robot)
+ROS2 package for Object Detection using tensorflow. 
+References : https://www.codeproject.com/Articles/1268309/Adding-Object-Detection-with-TensorFlow-to-a-Robot
 			
 ### tello_driver: 
-ROS2 package for drive tello drone. There are 3 nodes.
+ROS2 package for drive tello drone. There are 4 nodes.
 -		command_node: For sending command to tello drone
 -		state_node: For tello drone current state
 -		video_stream_node: For raw video stream from tello drone camera
